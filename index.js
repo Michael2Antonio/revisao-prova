@@ -2,11 +2,16 @@ const express = require ('express');
 
 const server = express();
 
-const tarefa = [
+const tarefas = [
     {
         id: 1,
         descricao: "Comprar pao",
         finalizado: false
+    },
+    {
+        id:2 ,
+        descricao: "Comprar leite",
+        finalizado: true 
     }
 ];
 
