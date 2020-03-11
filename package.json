@@ -1,0 +1,16 @@
+{
+  "name": "revisao-prova",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Michael2Antonio/revisao-prova.git",
+  "author": "Michael2Antonio <michael.antunes.sa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+  }
+}
